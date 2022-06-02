@@ -24,3 +24,9 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log("The backpack object:", backpack);
+
+console.log("The before right :", backpack.strapLength.right);
+backpack.newStrapLength(21, 17);
+console.log("The after right:", backpack.strapLength.right);
